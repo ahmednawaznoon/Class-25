@@ -21,6 +21,7 @@ function setup() {
   box4 = new Box(920,240,70,70,"#cfb997","white",1)
   box5 = new Box(810,100,70,70, "#cfb997","white",1)
   ground = new Ground(600,height,width,20)
+  platform = new Ground(150,305,300,170)
   pig1 = new Pig(810,220)
   pig2 = new Pig(810,350)
   log1 = new Log(810,260,PI/2,300, "#91672c","white",1)
@@ -54,6 +55,7 @@ function draw() {
   log3.display()
   log4.display()
   bird.display()
+  platform.display()
   
   
 
